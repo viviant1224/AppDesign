@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.android\build-cache\16cec5bee694d12b696125e5f19a0f0e1187ea88\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bdc1a4fd30df0c7ebef68dd400199ac0d3e9a6ee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_fadbc24ca881bc621be8d7e5e4829e6be9e7dc64\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.android\build-cache\86da4eb408272bf181f3684d5082e3b8507dbe53\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fff79631971bbccc9582193e7838f32b8cd7d71d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.android\build-cache\dcef30c2465e71e45477a25e7aa33e3ef86cdc9f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="84a5e720e441032fc979314a4539f3d40079801b">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3b979143ccf74ac4e2fd33d29b7b3d54ca6743c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.1.0\693eddc23e87ab13f9cf5001707ce8e7e1d1ff01\adapter-rxjava-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\adapter-rxjava-2.1.0_6b12aa3fc4d4a5312c495ec7ff1f9d31ef0a543e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.android\build-cache\9295d672ef8fae2745a71cb2fb7e38d695501cd7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_665d7e12ae9843f8e2993efa2ac120f172a9df36\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.android\build-cache\93e7f4b25c3f42048ce4345bc0614d54f6ab80cf\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="df451c6f391e3e32022fc964ed87bd57a5869128">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dea588d5fde8a6c7932de2ac65f0737f9e4eef43\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.android\build-cache\8ca1ea592de1867a42ab35c6205bbf783cafcd76\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4cc5c3401769a89adfed6d7b418dda04250fcd3e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.1.0_d7037c807747df7d50acfda2ca19c1d7984b7579\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.6\2586312cd2b8a511e4c6236736f5a039fc0f2273\rxjava-1.1.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.1.6_50f8825acdd9a846646b1fad65c912326ace4263\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.android\build-cache\7406ce66787f87c612e7cb9616a531f84c81be3d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dc0461bbffd9c986a8126bb49f80b6ed76bdc457\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.android\build-cache\09a8ed3a03292cb8095d0fa05fca99c99556bd01\output\jars\libs\rxandroid-1.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="84127ad71f76445b8215afceb38e8b05f58eafa6">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxandroid-1.2.0_2a627d4cc05aa1781a7bfe8882ae141232b3b451\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.android\build-cache\0526d9e19316b2e883edfefcfbfc416308225f71\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_97b65adff5bda5b3cb064ec1f5d7498137966fa8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.android\build-cache\976878e774ce1a692f334048510ea8a0d6b92293\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9e782f57ef09e7e8e6e0080c828916b5e9a059cc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.android\build-cache\831b9f14d51d924ea3b0e9ee1d4b634c9db59c4b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_47cfdb7943e3f577d915edc7b42b70d926eb0136\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.android\build-cache\09a8ed3a03292cb8095d0fa05fca99c99556bd01\output\jars\libs\okhttp-3.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e009af854d43130a9a13bcba900ddd1124e835d5">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.1_b8bc853d8f3d66c6b829cb300af9882196e720b9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.android\build-cache\79de96d60a19dc501004a9062ba4626b1cae117d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_29e4aa6e1fb4bbff4758f461bc342d0d09428a34\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.android\build-cache\b924c73179180eb3a7ba37113171e0657f851b5f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bc599eb9531da9d18bc58ec4eb0b1a1d895f6839">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_be2ae51eaf2ccfe9ea4891ff072e74b0a565525a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.android\build-cache\09a8ed3a03292cb8095d0fa05fca99c99556bd01\output\jars\libs\BmobSDK_3.5.5_20170420.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f67cfc97fcbde8b4764f01135b10afa716ae1a40">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\BmobSDK_3.5.5_20170420_a254e22bbb0c2cc003f34f3f7e8331775423055a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.android\build-cache\29844a70ad7ef8af37045ccd4c8a7cd301eeac48\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="998251183fdbfb40a8d2c5191e4d55edb714a2ba">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_04bc872356ab58a6a27a721db2926ee21db60cdb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="73ee47c0c938b579e024b4bbc68b24168868f8c5">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_fa161a88ddefc2834478e187dde987dc5482d9f0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_ed945e6615b03bb060099117115c944b6d31497a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.android\build-cache\1b2cf404d84b7f29822a07720530690f6d425833\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_69daf5682d644a7cd474e0e48763641445ec32bd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.android\build-cache\09a8ed3a03292cb8095d0fa05fca99c99556bd01\output\jars\libs\okio-1.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f64e0f80ef26fbc722b4bc9f024370d5b1e8f6d6">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.7.0_909589d9b25c7d64d6d3198d571e59395ff9d9a7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Program Files (x86)\android-studio-ide-173.4670218-windows\android-studio\gradle\m2repository\com\google\code\gson\gson\2.7\gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_31bb8b9c810130a583f4a0450b7249854de554d0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.gradle\caches\modules-2\files-2.1\com.alibaba\fastjson\1.2.12\f693a82acf6c8fb89c6ed75f9e736b601be1e262\fastjson-1.2.12.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f693a82acf6c8fb89c6ed75f9e736b601be1e262">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\fastjson-1.2.12_d034efbf8f9373d2fa1a835345ee9984545f17e4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.android\build-cache\66e9731f60651745accbd0e409213c95adf72b76\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_82a5dbbfb0ab5cce524959723b93960bac9c7707\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.gradle\caches\modules-2\files-2.1\org.jsoup\jsoup\1.10.1\645f1ad2f6f4cbad1cde4c483eae71e4051be6ef\jsoup-1.10.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="645f1ad2f6f4cbad1cde4c483eae71e4051be6ef">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\jsoup-1.10.1_35de9ddaea652ca5ba9c7cecbcd0810bb03ccb85\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.android\build-cache\8917d2b23e6382a4601cd4246a19438fc96e4596\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_46489bdec49afca6d648cfe5f743a46cf193e52e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_049d746e89e1655c053d55d264e902b18c24a6ca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_a761fd311dbf1a483321a53c2bbd7ad16c4bb593\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.android\build-cache\09a8ed3a03292cb8095d0fa05fca99c99556bd01\output\jars\libs\gson-2.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="cea3a9be08d0dcf89783b2cc87c8787fdb2a0d12">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.6.2_1ebbd6065b31cdc8d8d85cf20518c211bd1d9602\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-7.0.1_8408c36a1d574b473d6667de02c052054a511957\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.4.2\d99260c62d97beae99ed1f779a35a9bf48c094a6\logging-interceptor-3.4.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d99260c62d97beae99ed1f779a35a9bf48c094a6">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\logging-interceptor-3.4.2_0ce3e953f7cc606ecea6d4e060d3e91d7f644ab3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.android\build-cache\09a8ed3a03292cb8095d0fa05fca99c99556bd01\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ac71d1248d0f3577b39093396e6ff35582a5d7a4">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d372268fb56fb6a8028ba6187935701f10186e40\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.android\build-cache\5adf2be4a4186e3175a303c783cd5a758890400f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_54150b0affc0d7bf5d5bc5ee2e15f1410d598f15\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.gradle\caches\modules-2\files-2.1\cn.bmob.android\http-legacy\1.0\5320fd78dd7f154e586970d4f02befc9b58432aa\http-legacy-1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5320fd78dd7f154e586970d4f02befc9b58432aa">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\http-legacy-1.0_2d7ef91dba92855d616f3b0afb2e1de6212e6df0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_bf47a07f319b3119a0248586d9ece159bc605c2c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.android\build-cache\b17c224ac16f63eeea42681530795ecfbb81326e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7f9ef1de84f75b0c1057f190df6ef26cedefc47b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.android\build-cache\db55d3dcbcd0bf5c4d980f57a566252e64aa2af3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a2f97ee67ac7c24e5b638d91a1917e960187ebe0">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_adbde43c29c8c5178a82a342a2d3a9d37bb0d6e0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.2\ccde00f7ccc77af5a6d5752e2cb21f6d8998289f\okhttp-3.4.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ccde00f7ccc77af5a6d5752e2cb21f6d8998289f">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.4.2_079c6b54d1578224426e1701e5e39b3b506cd50d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.9.0_5edb5d5f7241cba8f3dca309d99c84e7e61e1feb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\viviant\.android\build-cache\09a8ed3a03292cb8095d0fa05fca99c99556bd01\output\jars\libs\rxjava-1.1.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="79f0c1e382e8b62e91064ef6b71130dda83f338e">
+        <dex dex="C:\Users\viviant\Documents\AndroidStudioProjects\AppDesign\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.1.6_c6299cbaa3df9736f84b5e709e0918e7b2f6986d\classes.dex" />
+    </item>
+
+</items>
