@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="fit_system_windows">
+        <attr name="padding_status" format="boolean"/>
+        <attr name="status_color" format="color"/>
+        <attr name="padding_navigation" format="boolean"/>
+        <attr name="margin_status" format="boolean"/>
+        <attr name="margin_navigation" format="boolean"/>
+    </declare-styleable>
+</resources>

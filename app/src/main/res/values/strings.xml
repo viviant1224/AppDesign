@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">EarnGold</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+
+    <string name="cpa_page">CPA篇</string>
+    <string name="self_media_page">自媒体篇</string>
+    <string name="introduce_flow">引流篇</string>
+    <string name="donate">捐赠</string>
+    <string name="day_nice_goods">每日精选</string>
+
+    <string name="feedback">反馈建议</string>
+    <string name="about">关于</string>
+    <string name="setting">设置</string>
+    <string name="photo_collections">图集：%1$s</string>
+    <!-- 共享过度动画 -->
+    <string name="transition_photos">transition_animation_news_photos</string>
+
+
+    <string name="test_tx">yyyyyyyyyysasssssssssssssssssssssssssssssssssss
+            sssssssssssssssssssssssbbbbbbbbbbb
+            bbbbbbbbbbbbbbbbbbbbb
+            bbbbbbbbbbbbbbbb
+            bbbbbbbbbbbbbb
+            bbbbbbbbbbbbbbbb
+            bbbbbbbbbbbbbb
+            bbbbbbbbbbb
+            bbbbbbbbbbbbbbb
+            bbbbbbbbbbbbb
+            bbbbbbbbbbbbbb
+            bbbbbbbbbbbbbb
+            bbbbbbbbbbbbbssss
+            ssssssssssssssssssssssss
+            sssssssssssssssssssssssssss
+            ssssssssssssssssssssssssss
+            ssssssssssssssssssssssssssss
+            sssssssssssssssssssssssssss
+            sssssssssssssssssssssssssssssss
+            sssssssssssssssssssss
+            ssssssssssssssssss
+            ssssssssssssssssssss
+            sssssssssssssssssssssssss
+            sssssssssssssssyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy</string>
+
+    <!--<string name="net_error">网络访问错误，请稍后再试</string>-->
+    <!--<string name="empty">还没有数据哦</string>-->
+    <!--<string name="loading">请稍后...</string>-->
+    <!--<string name="reload">重新尝试</string>-->
+    <!--<string name="no_net">网络不可用,请检查你的网络</string>-->
+
+
+    <string name="permission_get_accounts_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_GET_ACCOUNTS</string>
+    <string name="permission_read_phone_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_READ_PHONE_STATE</string>
+    <string name="permission_call_phone_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_CALL_PHONE</string>
+    <string name="permission_camera_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_CAMERA</string>
+    <string name="permission_access_fine_location_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_ACCESS_FINE_LOCATION</string>
+    <string name="permission_access_coarse_location_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_ACCESS_COARSE_LOCATION</string>
+    <string name="permission_read_external_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_READ_EXTERNAL_STORAGE</string>
+    <string name="permission_white_external_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_WRITE_EXTERNAL_STORAGE</string>
+    <string name="permission_recode_audio_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_RECORD_AUDIO</string>
+
+</resources>

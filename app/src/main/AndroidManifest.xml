@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.viviant.earngold">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <!--动态权限分配-->
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
+
+
+    <!--bmob-->
+    <!--允许联网 -->
+    <!--<uses-permission android:name="android.permission.INTERNET" />-->
+    <!--获取GSM（2g）、WCDMA（联通3g）等网络状态的信息  -->
+    <!--<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />-->
+    <!--获取wifi网络状态的信息 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!--保持CPU 运转，屏幕和键盘灯有可能是关闭的,用于文件上传和下载 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!--获取sd卡写的权限，用于文件上传和下载-->
+    <!--<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />-->
+    <!--允许读取手机状态 用于创建BmobInstallation-->
+    <!--<uses-permission android:name="android.permission.READ_PHONE_STATE" />-->
+
+
+    <!--6.0权限的基本知识，以下是需要单独申请的权限，共分为9组，每组只要有一个权限申请成功了，就默认整组权限都可以使用了。-->
+    <!--group:android.permission-group.CONTACTS-->
+    <!--permission:android.permission.WRITE_CONTACTS-->
+    <!--permission:android.permission.GET_ACCOUNTS-->
+    <!--permission:android.permission.READ_CONTACTS-->
+
+    <!--group:android.permission-group.PHONE-->
+    <!--permission:android.permission.READ_CALL_LOG-->
+    <!--permission:android.permission.READ_PHONE_STATE-->
+    <!--permission:android.permission.CALL_PHONE-->
+    <!--permission:android.permission.WRITE_CALL_LOG-->
+    <!--permission:android.permission.USE_SIP-->
+    <!--permission:android.permission.PROCESS_OUTGOING_CALLS-->
+    <!--permission:com.android.voicemail.permission.ADD_VOICEMAIL-->
+
+    <!--group:android.permission-group.CALENDAR-->
+    <!--permission:android.permission.READ_CALENDAR-->
+    <!--permission:android.permission.WRITE_CALENDAR-->
+
+    <!--group:android.permission-group.CAMERA-->
+    <!--permission:android.permission.CAMERA-->
+
+    <!--group:android.permission-group.SENSORS-->
+    <!--permission:android.permission.BODY_SENSORS-->
+
+    <!--group:android.permission-group.LOCATION-->
+    <!--permission:android.permission.ACCESS_FINE_LOCATION-->
+    <!--permission:android.permission.ACCESS_COARSE_LOCATION-->
+
+    <!--group:android.permission-group.STORAGE-->
+    <!--permission:android.permission.READ_EXTERNAL_STORAGE-->
+    <!--permission:android.permission.WRITE_EXTERNAL_STORAGE-->
+
+    <!--group:android.permission-group.MICROPHONE-->
+    <!--permission:android.permission.RECORD_AUDIO-->
+
+    <!--group:android.permission-group.SMS-->
+    <!--permission:android.permission.READ_SMS-->
+    <!--permission:android.permission.RECEIVE_WAP_PUSH-->
+    <!--permission:android.permission.RECEIVE_MMS-->
+    <!--permission:android.permission.RECEIVE_SMS-->
+    <!--permission:android.permission.SEND_SMS-->
+    <!--permission:android.permission.READ_CELL_BROADCASTS-->
+
+
+
+    <application
+        android:allowBackup="true"
+        android:name=".MyApplication"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!--<activity-->
+            <!--android:name=".ui.activity.SplashActivity"-->
+            <!--android:label="@string/app_name">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+
+        <!--<activity android:name=".ui.activity.MainActivity"/>-->
+
+        <activity android:name=".ui.activity.SplashActivity" />
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--bugly-->
+        <activity
+            android:name="com.tencent.bugly.beta.ui.BetaActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|locale"
+            android:theme="@android:style/Theme.Translucent" />
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+    </application>
+
+</manifest>
