@@ -12,6 +12,8 @@ import com.viviant.earngold.bean.Gank;
 import com.viviant.earngold.mvp.main.contract.BSMainContract;
 import com.viviant.earngold.mvp.main.presenter.BSMainPresenter;
 import com.viviant.earngold.ui.fragment.BSMainFragment;
+import com.viviant.earngold.ui.fragment.DayNiceGoodsMainFragment;
+import com.viviant.earngold.ui.fragment.IntroduceFlowMainFragment;
 import com.viviant.earngold.ui.fragment.ShopsMainFragment;
 import com.viviant.earngold.ui.fragment.OwnerMainFragment;
 import com.viviant.earngold.widget.customtoast.CustomToast;
@@ -32,8 +34,8 @@ public class MainActivity extends BaseActivity<BSMainPresenter>
 
     private BSMainFragment mBSMainFragment;
     private OwnerMainFragment mOwnerMainFragment;
-//    private IntroduceFlowMainFragment mIntroduceFlowMainFragment;
-//    private DayNiceGoodsMainFragment mDayNiceGoodsMainFragment;
+    private IntroduceFlowMainFragment mIntroduceFlowMainFragment;
+    private DayNiceGoodsMainFragment mDayNiceGoodsMainFragment;
     private ShopsMainFragment mShopsMainFragment;
     private long exitTime = 0;
 
@@ -63,6 +65,8 @@ public class MainActivity extends BaseActivity<BSMainPresenter>
                 .addItem(new BottomNavigationItem(R.drawable.ic_menu_camera, "camera"))
                 .addItem(new BottomNavigationItem(R.drawable.ic_menu_share, "Share"))
                 .addItem(new BottomNavigationItem(R.drawable.ic_menu_manage, "manage"))
+                .addItem(new BottomNavigationItem(R.drawable.ic_menu_share, "Share"))
+                .addItem(new BottomNavigationItem(R.drawable.ic_menu_manage, "manage"))
                 .initialise();
 
 
@@ -78,40 +82,40 @@ public class MainActivity extends BaseActivity<BSMainPresenter>
             case 0:
 
                 transaction.hide(mOwnerMainFragment);
-//                transaction.hide(mIntroduceFlowMainFragment);
-//                transaction.hide(mDayNiceGoodsMainFragment);
+                transaction.hide(mIntroduceFlowMainFragment);
+                transaction.hide(mDayNiceGoodsMainFragment);
                 transaction.hide(mShopsMainFragment);
                 transaction.show(mBSMainFragment);
                 transaction.commitAllowingStateLoss();
                 break;
-            case 2:
+            case 4:
                 transaction.show(mOwnerMainFragment);
-//                transaction.hide(mIntroduceFlowMainFragment);
-//                transaction.hide(mDayNiceGoodsMainFragment);
+                transaction.hide(mIntroduceFlowMainFragment);
+                transaction.hide(mDayNiceGoodsMainFragment);
                 transaction.hide(mShopsMainFragment);
                 transaction.hide(mBSMainFragment);
                 transaction.commitAllowingStateLoss();
                 break;
-//            case 2:
-//                transaction.hide(mOwnerMainFragment);
-//                transaction.show(mIntroduceFlowMainFragment);
-//                transaction.hide(mDayNiceGoodsMainFragment);
-//                transaction.hide(mShopsMainFragment);
-//                transaction.hide(mBSMainFragment);
-//                transaction.commitAllowingStateLoss();
-//                break;
-//            case 3:
-//                transaction.hide(mOwnerMainFragment);
-//                transaction.hide(mIntroduceFlowMainFragment);
-//                transaction.show(mDayNiceGoodsMainFragment);
-//                transaction.hide(mShopsMainFragment);
-//                transaction.hide(mBSMainFragment);
-//                transaction.commitAllowingStateLoss();
-//                break;
+            case 2:
+                transaction.hide(mOwnerMainFragment);
+                transaction.show(mIntroduceFlowMainFragment);
+                transaction.hide(mDayNiceGoodsMainFragment);
+                transaction.hide(mShopsMainFragment);
+                transaction.hide(mBSMainFragment);
+                transaction.commitAllowingStateLoss();
+                break;
+            case 3:
+                transaction.hide(mOwnerMainFragment);
+                transaction.hide(mIntroduceFlowMainFragment);
+                transaction.show(mDayNiceGoodsMainFragment);
+                transaction.hide(mShopsMainFragment);
+                transaction.hide(mBSMainFragment);
+                transaction.commitAllowingStateLoss();
+                break;
             case 1:
                 transaction.hide(mOwnerMainFragment);
-//                transaction.hide(mIntroduceFlowMainFragment);
-//                transaction.hide(mDayNiceGoodsMainFragment);
+                transaction.hide(mIntroduceFlowMainFragment);
+                transaction.hide(mDayNiceGoodsMainFragment);
                 transaction.show(mShopsMainFragment);
                 transaction.hide(mBSMainFragment);
                 transaction.commitAllowingStateLoss();
@@ -139,20 +143,20 @@ public class MainActivity extends BaseActivity<BSMainPresenter>
         if (savedInstanceState != null) {
             mBSMainFragment = (BSMainFragment) getSupportFragmentManager().findFragmentByTag("mBSMainFragment");
             mOwnerMainFragment = (OwnerMainFragment) getSupportFragmentManager().findFragmentByTag("mOwnerMainFragment");
-//            mIntroduceFlowMainFragment = (IntroduceFlowMainFragment)  getSupportFragmentManager().findFragmentByTag("mIntroduceFlowMainFragment");
-//            mDayNiceGoodsMainFragment = (DayNiceGoodsMainFragment)  getSupportFragmentManager().findFragmentByTag("mDayNiceGoodsMainFragment");
+            mIntroduceFlowMainFragment = (IntroduceFlowMainFragment)  getSupportFragmentManager().findFragmentByTag("mIntroduceFlowMainFragment");
+            mDayNiceGoodsMainFragment = (DayNiceGoodsMainFragment)  getSupportFragmentManager().findFragmentByTag("mDayNiceGoodsMainFragment");
             mShopsMainFragment = (ShopsMainFragment)  getSupportFragmentManager().findFragmentByTag("mShopsMainFragment");
         } else {
             mBSMainFragment = new BSMainFragment();
             mOwnerMainFragment = new OwnerMainFragment();
-//            mIntroduceFlowMainFragment = new IntroduceFlowMainFragment();
-//            mDayNiceGoodsMainFragment = new DayNiceGoodsMainFragment();
+            mIntroduceFlowMainFragment = new IntroduceFlowMainFragment();
+            mDayNiceGoodsMainFragment = new DayNiceGoodsMainFragment();
             mShopsMainFragment = new ShopsMainFragment();
 
             transaction.add(R.id.fl_body, mBSMainFragment, "mBSMainFragment");
-//            transaction.add(R.id.fl_body, mIntroduceFlowMainFragment, "mIntroduceFlowMainFragment");
+            transaction.add(R.id.fl_body, mIntroduceFlowMainFragment, "mIntroduceFlowMainFragment");
             transaction.add(R.id.fl_body, mOwnerMainFragment, "mOwnerMainFragment");
-//            transaction.add(R.id.fl_body, mDayNiceGoodsMainFragment, "mDayNiceGoodsMainFragment");
+            transaction.add(R.id.fl_body, mDayNiceGoodsMainFragment, "mDayNiceGoodsMainFragment");
             transaction.add(R.id.fl_body, mShopsMainFragment, "mShopsMainFragment");
 
         }
@@ -163,8 +167,8 @@ public class MainActivity extends BaseActivity<BSMainPresenter>
     private void setMainFragment() {
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         transaction.hide(mOwnerMainFragment);
-//        transaction.hide(mIntroduceFlowMainFragment);
-//        transaction.hide(mDayNiceGoodsMainFragment);
+        transaction.hide(mIntroduceFlowMainFragment);
+        transaction.hide(mDayNiceGoodsMainFragment);
         transaction.hide(mShopsMainFragment);
         transaction.show(mBSMainFragment);
 
