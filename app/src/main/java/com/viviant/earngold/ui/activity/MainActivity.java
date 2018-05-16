@@ -16,6 +16,7 @@ import com.viviant.earngold.ui.fragment.DayNiceGoodsMainFragment;
 import com.viviant.earngold.ui.fragment.IntroduceFlowMainFragment;
 import com.viviant.earngold.ui.fragment.ShopsMainFragment;
 import com.viviant.earngold.ui.fragment.OwnerMainFragment;
+import com.viviant.earngold.util.CommonUtils;
 import com.viviant.earngold.widget.customtoast.CustomToast;
 
 import java.util.List;
@@ -52,6 +53,8 @@ public class MainActivity extends BaseActivity<BSMainPresenter>
 //        navigationView.setNavigationItemSelectedListener(this);
         initFragment(savedInstanceState);
 //        android.os.Debug.stopMethodTracing();
+
+        Log.d("weiwei", CommonUtils.getUuid(this));
 
     }
 

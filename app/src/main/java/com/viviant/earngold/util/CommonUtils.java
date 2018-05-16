@@ -5,7 +5,9 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.os.Build;
+import android.provider.Settings;
 import android.support.v7.widget.Toolbar;
+import android.telephony.TelephonyManager;
 import android.view.KeyCharacterMap;
 import android.view.KeyEvent;
 import android.view.View;
@@ -14,6 +16,9 @@ import android.view.ViewGroup;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.UUID;
 
 /**
  * Created by weiwei.huang on 2017/8/16.
@@ -142,6 +147,71 @@ public class CommonUtils {
      */
     public static SharedPreferences getSharedPreference(Context context) {
         return context.getSharedPreferences(context.getPackageName(), Activity.MODE_PRIVATE);
+    }
+
+    /**
+     * 获取用户UUID
+     */
+    public static String getUuid(Context ctx){
+        String uniqueId=null;
+
+        try {
+            final TelephonyManager tm = (TelephonyManager)ctx.getSystemService(Context.TELEPHONY_SERVICE);
+            String tmDevice, tmSerial, androidId,macAddr;
+
+            tmDevice  =  ""+tm.getDeviceId();              //IMEI
+            androidId =  ""+ Settings.Secure.getString(ctx.getContentResolver(), Settings.Secure.ANDROID_ID);
+
+            uniqueId = createUuid(androidId,tmDevice,getDeviceData());
+
+        } catch (Exception e) {
+            uniqueId = UUID.randomUUID().toString();
+        }
+
+        return uniqueId;
+    }
+
+    private static String createUuid(String androidId, String tmDevice,  String id){
+        MessageDigest m = null;
+        String para = androidId+tmDevice+id;
+
+        try {
+            m = MessageDigest.getInstance("MD5");
+            m.update(para.getBytes(), 0, para.length());
+            byte p_md5Data[] = m.digest();
+            String uniqueID = new String();
+            for (int i = 0; i < p_md5Data.length; i++) {
+                int b = (0xFF & p_md5Data[i]);
+                if (b <= 0xF) uniqueID += "0";
+                uniqueID += Integer.toHexString(b);
+            }
+            uniqueID = uniqueID.toLowerCase();
+            return uniqueID;
+        } catch (NoSuchAlgorithmException e) {
+            long mostSigBits   = androidId.hashCode();
+            long leastSigBits  = ((long)tmDevice.hashCode() << 32);
+            UUID deviceUuid    = new UUID(mostSigBits,leastSigBits );
+            String uniqueId    = deviceUuid.toString();
+            String retUniqueId = uniqueId.substring(0,8)+uniqueId.substring(9,13)+uniqueId.substring(14,18)+uniqueId.substring(19,23)+uniqueId.substring(24);
+            return retUniqueId;
+        }
+    }
+
+    public static String getDeviceData() {
+        String deviceId = ""+ Build.VERSION.SDK_INT
+                + //
+                Build.BOARD.length() % 10 + Build.BRAND.length() % 10
+                + Build.CPU_ABI.length() % 10 + Build.DEVICE.length() % 10
+                + Build.DISPLAY.length() % 10 + Build.HOST.length() % 10
+                + Build.ID.length() % 10 + Build.MANUFACTURER.length() % 10
+                + Build.MODEL.length() % 10 + Build.PRODUCT.length() % 10
+                + Build.TAGS.length() % 10 + Build.TYPE.length() % 10
+                + Build.USER.length() % 10; // 13 digits
+        return deviceId;
+    }
+
+    public static String getAndroidId(Context context) {
+        return Settings.System.getString(context.getContentResolver(), Settings.System.ANDROID_ID);
     }
 
 
